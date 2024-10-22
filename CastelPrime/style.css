@@ -1,0 +1,30 @@
+:root {
+    --laranja-principal: rgb(255, 81, 0);
+    --azul-secunderia: blue;
+    --botao-cinza: rgb(95, 95, 95);
+    --cor-de-fundo: black;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--laranja-principal);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url("prime.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.conteiner_botao{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
